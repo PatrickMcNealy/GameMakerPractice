@@ -8,17 +8,32 @@
   <sprites name="sprites">
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprStart</sprite>
+    <sprites name="Characters">
+      <sprites name="Zairo">
+        <sprite>sprites\ZairoStand</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="Title">
       <object>objects\objStart</object>
       <object>objects\objTitle</object>
     </objects>
+    <objects name="GameObjects">
+      <objects name="Players">
+        <object>objects\Player</object>
+        <object>objects\Zairo</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Title</room>
+    <room>rooms\rmGameTest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
